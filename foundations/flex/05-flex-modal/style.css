@@ -15,14 +15,32 @@ body {
   justify-content: center;
 }
 
+.text{
+  margin: 15px 0;
+}
 .modal {
+  display: flex;
+  padding: 10px;
+  gap: 10px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
 }
 
+.header{
+  font-weight:bolder;
+  font-size: larger;
+}
+
+.top-bar{
+  display: flex;
+  justify-content: space-between;
+
+}
+
 .icon {
+  flex-shrink: 0;
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
